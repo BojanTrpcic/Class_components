@@ -1,25 +1,11 @@
 import React from "react";
-import { Component } from "react"
 
-// class Komponenta extends Component {
-//     constructor (props) {
-//         super(props);
-//     }
-//     render() {
-//         return (
-//             <>
-//             <h1>Komponenta</h1>
-//             <h2>{this.props.title}</h2>
-//             </>
-//         )
-//     }
-// }
 
-function Komponenta(props) {
+function Komponenta() {
     return (
         <>
          <h1>Komponenta</h1>
-         <h2>{props.title}</h2>
+         <h2>Funckijska komponenta</h2>
         </>
         )
     }
